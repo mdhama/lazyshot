@@ -9,9 +9,7 @@ The simplest way to take an automated screenshot of given URLs. Easy installatio
 * Python >= 2.7
 * Selenium, urlparse and termcolor Python library. Please install latest by running these commands.
 ```
-pip install selenium
-pip install urlparse
-pip install termcolor
+pip install -r requirements.txt
 ```
 
 ### Installation:
@@ -65,7 +63,15 @@ python lazyshot.py wordlist --out folder_name
 ### Wordlist:
 Wordlist is just a simple data file where each line contains one URL.
 
-File name `wordlst` or `wordlist.txt`
+```
+vi wordlist
+
+list subdomains/domains
+
+:wq (exit vim)
+```
+
+Wordlist file example content
 
 ```
 www.example.com
@@ -76,7 +82,7 @@ foo-bar.exmaple.com
 
 ### Example:
 ```
-python lazyshot.py wordlist.txt --out exmaple
+python lazyshot.py wordlist --out exmaple
 
 output:
 
@@ -87,8 +93,8 @@ output:
 | |___| (_| |/ /| |_| /\__/ / | | | (_) | |_  
 \_____/\__,_/___|\__, \____/|_| |_|\___/ \__| 
                   __/ |                     
-                 |___/       By: Mukesh Dhama
----------------------------------------------                           
+                 |___/       By: Mukesh Dhama & Sahil Ahamad
+-------------------------------------------------------------                           
 
 
 www.example.com is ready.
