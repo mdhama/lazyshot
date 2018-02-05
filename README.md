@@ -1,4 +1,4 @@
-# Lazyshot
+# LazyShot
 Simplest way to take automated screenshot of given URLs. Easy installation!
 
 ![LAZYSHOT](https://image.ibb.co/iMLdFc/Group_2.png)
