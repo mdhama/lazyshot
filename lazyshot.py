@@ -7,8 +7,6 @@ from termcolor import colored, cprint
 from selenium.webdriver.common.keys import Keys  
 from selenium.webdriver.chrome.options import Options
 
-print (os.path.abspath("chromedriver"))
-
 cprint("""
  _                     __ __ _           _
 | |                   /  ___| |         | |   
