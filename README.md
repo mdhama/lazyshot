@@ -30,6 +30,7 @@ cd lazyshot
 
 * Add alias `chromedriver` into .bash_profile
 ```
+cd
 nano ~/.bash_profile
 
 or
