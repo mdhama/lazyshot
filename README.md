@@ -110,8 +110,3 @@ MIT License
 
 
 > Any Pull request is greatly appreciated 
-
-
-### Contributers
-Mukesh Dhama,
-Sahil Ahamad
