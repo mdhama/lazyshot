@@ -25,7 +25,7 @@ git clone https://github.com/mdhama/lazyshot.git
 ```
 cd lazyshot
 ```
-* Download chromedriver from [here](https://chromedriver.storage.googleapis.com/index.html?path=2.9/)
+* Download chromedriver (v2.35) from [here](https://chromedriver.storage.googleapis.com/index.html?path=2.35/)
 * Extract zip file. Copy and Paste `chromedriver` to `/path/to/lazyshot/` directory
 
 * Add alias `chromedriver` into .bash_profile
